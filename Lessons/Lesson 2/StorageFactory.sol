@@ -13,6 +13,7 @@ contract StorageFactory {
         simpleStorageArray.push(simpleStorage);
     }
     
+    //call the store function from SimpleStorage contract
     function sfStore(uint256 _simpleStorageIndex, uint256 _simpleStorageNumber) public {
         // Address 
         // ABI 
