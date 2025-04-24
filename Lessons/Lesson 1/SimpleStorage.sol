@@ -3,7 +3,7 @@ pragma solidity ^0.8.19;
 
 contract SimpleStorage {
     uint256 favoriteNumer;
-    // need to change
+    // need to change this
     mapping(string => uint256) public nametoFavoriteNumber;
 
     People[] public people;
